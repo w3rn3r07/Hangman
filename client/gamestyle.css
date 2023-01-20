@@ -1,0 +1,188 @@
+body{
+  background-color: rgb(241, 241, 241);
+  height: 100vh;
+  overflow: hidden;
+}
+#howtoplay {
+  text-align: left;
+  font-family: 'Lucida Grande';
+  color: black;
+  background: rgb(200, 200, 200);
+  margin: 3em 16em 1em 16em;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+}
+.homeBtn {
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  border: 3px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+#categoryText {
+  margin-top: 1em;
+  color: black;
+  font-family: 'Lucida Sans';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#logo{
+  width:590px;
+  height:140px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+}
+
+article#logoimg{
+  text-align: center;
+}
+
+#start{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+#gif{
+  margin: 0 0 0 35em;
+  width: 400px;
+  height: 300px;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+#main{
+  overflow: hidden;
+  margin-bottom: 13em;
+  text-align: center;
+}
+
+#replay {
+  margin: 19em 12em 12em 13em;
+  height:40px;
+  width:70px;
+  color: black;
+  border-width: medium;
+  border-radius: 100px;
+  border-color: black;
+  position:fixed;
+  top: -10px;
+  left: 360px;
+  display: none;
+}
+
+#replay:hover{
+  background: black;
+  border-color: white;
+  color: white;
+}
+
+#displayLives{
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+  background: rgb(100, 100, 100);
+  margin: 1em 16em 1em 16em;
+  color: rgb(255, 255, 255);
+  font-family: Courier;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#hangman{
+  position: relative;
+  left: 0px;
+}
+
+#hint{
+  display: none;
+  height:25px;
+  width:55px;
+  color: black;
+  border-width: medium;
+  border-radius: 100px;
+  border-color: black;
+  position: fixed;
+  top: 250px;
+  left: 240px;
+}
+#hint:hover{
+  background: black;
+  border-color: white;
+  color: white;
+}
+
+#alphabets{
+  text-align: center;
+  margin:auto;
+  width: 13em;
+}
+
+#space{
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.20rem;
+  color: rgb(0, 0, 0);
+}
+
+#lastMsg{
+  display: none;
+  margin: 0 10em 0 10em;
+  white-space: pre-line;
+  color: rgb(0, 255, 0);
+  margin-top: 1em;
+  font-size: 27px;
+  font-family: Courier;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+  background: rgb(32 66 32);
+
+}
+
+
+
+.letters{
+  color: black;
+  border-width: medium;
+  border-radius: 1000px;
+  border-color: black;
+}
+.letters:hover{
+  background: black;
+  border-color: white;
+  color: white;
+}
+.letters.activeclick{
+  background: black;
+  color: white;
+  border-color: green;
+}
+.options{
+  width:90px;
+  height:30px;
+  color:black;
+  border-color: black;
+}
+.options:hover{
+  background: black;
+  border-color: white;
+  color: white;
+}
+.blackborder{
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+}
+.fontwhite{
+  font-family: 'Lucida Grande';
+  color: white;
+}
