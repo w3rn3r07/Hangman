@@ -1,5 +1,8 @@
 The following gamescript code displays the working of the game. Each and every line of code used is of my work.
-load the game up and select Single-Player mode. 
+Please make sure you have installed node.js into your system and start the server.js file.
+Following that, make sure you entered "http://localhost:8080/" into your browser.
+
+Load the game up and select Single-Player mode. 
 If you would like to, you can have a read through the how to play text.
 After you have entered in the game you will be given a word to be guessed as well as a lives counter.
 Guess the letters of the word if you have guessed the letters before the lives run out you win.
